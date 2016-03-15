@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FA6182C1C97AF7300B9E0BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA6182B1C97AF7300B9E0BB /* AppDelegate.swift */; };
+		5FA6182E1C97AF7300B9E0BB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5FA6182D1C97AF7300B9E0BB /* GameScene.sks */; };
+		5FA618301C97AF7300B9E0BB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA6182F1C97AF7300B9E0BB /* GameScene.swift */; };
+		5FA618321C97AF7300B9E0BB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA618311C97AF7300B9E0BB /* GameViewController.swift */; };
+		5FA618351C97AF7300B9E0BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FA618331C97AF7300B9E0BB /* Main.storyboard */; };
+		5FA618371C97AF7300B9E0BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FA618361C97AF7300B9E0BB /* Assets.xcassets */; };
+		5FA6183A1C97AF7300B9E0BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FA618381C97AF7300B9E0BB /* LaunchScreen.storyboard */; };
+		5FA618451C97AF7300B9E0BB /* WackaDrumpfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA618441C97AF7300B9E0BB /* WackaDrumpfTests.swift */; };
+		5FA618501C97AF7300B9E0BB /* WackaDrumpfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA6184F1C97AF7300B9E0BB /* WackaDrumpfUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FA618411C97AF7300B9E0BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FA618201C97AF7300B9E0BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FA618271C97AF7300B9E0BB;
+			remoteInfo = WackaDrumpf;
+		};
+		5FA6184C1C97AF7300B9E0BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FA618201C97AF7300B9E0BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FA618271C97AF7300B9E0BB;
+			remoteInfo = WackaDrumpf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FA618281C97AF7300B9E0BB /* WackaDrumpf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WackaDrumpf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA6182B1C97AF7300B9E0BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FA6182D1C97AF7300B9E0BB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		5FA6182F1C97AF7300B9E0BB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		5FA618311C97AF7300B9E0BB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5FA618341C97AF7300B9E0BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FA618361C97AF7300B9E0BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FA618391C97AF7300B9E0BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FA6183B1C97AF7300B9E0BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FA618401C97AF7300B9E0BB /* WackaDrumpfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WackaDrumpfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA618441C97AF7300B9E0BB /* WackaDrumpfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WackaDrumpfTests.swift; sourceTree = "<group>"; };
+		5FA618461C97AF7300B9E0BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FA6184B1C97AF7300B9E0BB /* WackaDrumpfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WackaDrumpfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA6184F1C97AF7300B9E0BB /* WackaDrumpfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WackaDrumpfUITests.swift; sourceTree = "<group>"; };
+		5FA618511C97AF7300B9E0BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FA618251C97AF7300B9E0BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FA6183D1C97AF7300B9E0BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FA618481C97AF7300B9E0BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FA6181F1C97AF7300B9E0BB = {
+			isa = PBXGroup;
+			children = (
+				5FA6182A1C97AF7300B9E0BB /* WackaDrumpf */,
+				5FA618431C97AF7300B9E0BB /* WackaDrumpfTests */,
+				5FA6184E1C97AF7300B9E0BB /* WackaDrumpfUITests */,
+				5FA618291C97AF7300B9E0BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FA618291C97AF7300B9E0BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FA618281C97AF7300B9E0BB /* WackaDrumpf.app */,
+				5FA618401C97AF7300B9E0BB /* WackaDrumpfTests.xctest */,
+				5FA6184B1C97AF7300B9E0BB /* WackaDrumpfUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FA6182A1C97AF7300B9E0BB /* WackaDrumpf */ = {
+			isa = PBXGroup;
+			children = (
+				5FA6182B1C97AF7300B9E0BB /* AppDelegate.swift */,
+				5FA6182D1C97AF7300B9E0BB /* GameScene.sks */,
+				5FA6182F1C97AF7300B9E0BB /* GameScene.swift */,
+				5FA618311C97AF7300B9E0BB /* GameViewController.swift */,
+				5FA618331C97AF7300B9E0BB /* Main.storyboard */,
+				5FA618361C97AF7300B9E0BB /* Assets.xcassets */,
+				5FA618381C97AF7300B9E0BB /* LaunchScreen.storyboard */,
+				5FA6183B1C97AF7300B9E0BB /* Info.plist */,
+			);
+			path = WackaDrumpf;
+			sourceTree = "<group>";
+		};
+		5FA618431C97AF7300B9E0BB /* WackaDrumpfTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FA618441C97AF7300B9E0BB /* WackaDrumpfTests.swift */,
+				5FA618461C97AF7300B9E0BB /* Info.plist */,
+			);
+			path = WackaDrumpfTests;
+			sourceTree = "<group>";
+		};
+		5FA6184E1C97AF7300B9E0BB /* WackaDrumpfUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FA6184F1C97AF7300B9E0BB /* WackaDrumpfUITests.swift */,
+				5FA618511C97AF7300B9E0BB /* Info.plist */,
+			);
+			path = WackaDrumpfUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FA618271C97AF7300B9E0BB /* WackaDrumpf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FA618541C97AF7300B9E0BB /* Build configuration list for PBXNativeTarget "WackaDrumpf" */;
+			buildPhases = (
+				5FA618241C97AF7300B9E0BB /* Sources */,
+				5FA618251C97AF7300B9E0BB /* Frameworks */,
+				5FA618261C97AF7300B9E0BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WackaDrumpf;
+			productName = WackaDrumpf;
+			productReference = 5FA618281C97AF7300B9E0BB /* WackaDrumpf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FA6183F1C97AF7300B9E0BB /* WackaDrumpfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FA618571C97AF7300B9E0BB /* Build configuration list for PBXNativeTarget "WackaDrumpfTests" */;
+			buildPhases = (
+				5FA6183C1C97AF7300B9E0BB /* Sources */,
+				5FA6183D1C97AF7300B9E0BB /* Frameworks */,
+				5FA6183E1C97AF7300B9E0BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FA618421C97AF7300B9E0BB /* PBXTargetDependency */,
+			);
+			name = WackaDrumpfTests;
+			productName = WackaDrumpfTests;
+			productReference = 5FA618401C97AF7300B9E0BB /* WackaDrumpfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FA6184A1C97AF7300B9E0BB /* WackaDrumpfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FA6185A1C97AF7300B9E0BB /* Build configuration list for PBXNativeTarget "WackaDrumpfUITests" */;
+			buildPhases = (
+				5FA618471C97AF7300B9E0BB /* Sources */,
+				5FA618481C97AF7300B9E0BB /* Frameworks */,
+				5FA618491C97AF7300B9E0BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FA6184D1C97AF7300B9E0BB /* PBXTargetDependency */,
+			);
+			name = WackaDrumpfUITests;
+			productName = WackaDrumpfUITests;
+			productReference = 5FA6184B1C97AF7300B9E0BB /* WackaDrumpfUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FA618201C97AF7300B9E0BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Brittany Butts";
+				TargetAttributes = {
+					5FA618271C97AF7300B9E0BB = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = F844K74M99;
+					};
+					5FA6183F1C97AF7300B9E0BB = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = F844K74M99;
+						TestTargetID = 5FA618271C97AF7300B9E0BB;
+					};
+					5FA6184A1C97AF7300B9E0BB = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = F844K74M99;
+						TestTargetID = 5FA618271C97AF7300B9E0BB;
+					};
+				};
+			};
+			buildConfigurationList = 5FA618231C97AF7300B9E0BB /* Build configuration list for PBXProject "WackaDrumpf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FA6181F1C97AF7300B9E0BB;
+			productRefGroup = 5FA618291C97AF7300B9E0BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FA618271C97AF7300B9E0BB /* WackaDrumpf */,
+				5FA6183F1C97AF7300B9E0BB /* WackaDrumpfTests */,
+				5FA6184A1C97AF7300B9E0BB /* WackaDrumpfUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FA618261C97AF7300B9E0BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA6182E1C97AF7300B9E0BB /* GameScene.sks in Resources */,
+				5FA6183A1C97AF7300B9E0BB /* LaunchScreen.storyboard in Resources */,
+				5FA618371C97AF7300B9E0BB /* Assets.xcassets in Resources */,
+				5FA618351C97AF7300B9E0BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FA6183E1C97AF7300B9E0BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FA618491C97AF7300B9E0BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FA618241C97AF7300B9E0BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA618301C97AF7300B9E0BB /* GameScene.swift in Sources */,
+				5FA618321C97AF7300B9E0BB /* GameViewController.swift in Sources */,
+				5FA6182C1C97AF7300B9E0BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FA6183C1C97AF7300B9E0BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA618451C97AF7300B9E0BB /* WackaDrumpfTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FA618471C97AF7300B9E0BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA618501C97AF7300B9E0BB /* WackaDrumpfUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FA618421C97AF7300B9E0BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FA618271C97AF7300B9E0BB /* WackaDrumpf */;
+			targetProxy = 5FA618411C97AF7300B9E0BB /* PBXContainerItemProxy */;
+		};
+		5FA6184D1C97AF7300B9E0BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FA618271C97AF7300B9E0BB /* WackaDrumpf */;
+			targetProxy = 5FA6184C1C97AF7300B9E0BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FA618331C97AF7300B9E0BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FA618341C97AF7300B9E0BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FA618381C97AF7300B9E0BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FA618391C97AF7300B9E0BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FA618521C97AF7300B9E0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FA618531C97AF7300B9E0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FA618551C97AF7300B9E0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WackaDrumpf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.downoffthedragon.WackaDrumpf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5FA618561C97AF7300B9E0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WackaDrumpf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.downoffthedragon.WackaDrumpf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5FA618581C97AF7300B9E0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = WackaDrumpfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.downoffthedragon.WackaDrumpfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WackaDrumpf.app/WackaDrumpf";
+			};
+			name = Debug;
+		};
+		5FA618591C97AF7300B9E0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WackaDrumpfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.downoffthedragon.WackaDrumpfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WackaDrumpf.app/WackaDrumpf";
+			};
+			name = Release;
+		};
+		5FA6185B1C97AF7300B9E0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = WackaDrumpfUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.downoffthedragon.WackaDrumpfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WackaDrumpf;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5FA6185C1C97AF7300B9E0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WackaDrumpfUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.downoffthedragon.WackaDrumpfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WackaDrumpf;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FA618231C97AF7300B9E0BB /* Build configuration list for PBXProject "WackaDrumpf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA618521C97AF7300B9E0BB /* Debug */,
+				5FA618531C97AF7300B9E0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FA618541C97AF7300B9E0BB /* Build configuration list for PBXNativeTarget "WackaDrumpf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA618551C97AF7300B9E0BB /* Debug */,
+				5FA618561C97AF7300B9E0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FA618571C97AF7300B9E0BB /* Build configuration list for PBXNativeTarget "WackaDrumpfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA618581C97AF7300B9E0BB /* Debug */,
+				5FA618591C97AF7300B9E0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FA6185A1C97AF7300B9E0BB /* Build configuration list for PBXNativeTarget "WackaDrumpfUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA6185B1C97AF7300B9E0BB /* Debug */,
+				5FA6185C1C97AF7300B9E0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FA618201C97AF7300B9E0BB /* Project object */;
+}
